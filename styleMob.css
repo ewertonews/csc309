@@ -1,0 +1,153 @@
+	#page{
+		width: 100%;
+	}
+	
+	body{
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, #E4E7F2),
+			color-stop(1, #7891D6)
+		);
+		background-image: -o-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+		background-image: -moz-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+		background-image: -webkit-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+		background-image: -ms-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+		background-image: linear-gradient(to bottom, #E4E7F2 0%, #7891D6 100%);	
+		
+	}
+	
+	.fontSize{
+		font-size: 170%;
+	}
+	
+	.setVerdana{
+		font-family:verdana;
+	}
+
+	header{
+		height:190px;
+		border: 1px black solid;
+		border-radius: 20px;
+		margin: 15px 10px 10px 10px;
+		background-color: red;
+		box-shadow: 5px 5px 5px #888888;
+		text-align: center;
+		background-image: url('sky.jpg');
+	}
+	
+	h1{	
+		font-size:350%;	
+		margin-bottom: -7px;
+		margin-top: 50px;
+	}
+	
+	h3{
+		font-size:120%;
+	}
+
+	nav{
+		border: 1px black solid;
+		margin: 10px 10px 10px 10px;	
+		height: 95px;
+		background-color: white;
+		box-shadow: 5px 5px 5px #888888;
+	}	
+
+	nav ul{
+	margin:0;
+	padding:0;
+	
+	}
+
+	nav ul li{	
+		list-style-type:none;
+		float:left;
+		text-align:center;
+	
+	}
+	
+
+	nav ul li:hover,a:hover{
+		background-color: #0033CC;
+		color:#FFF;
+	}
+
+	nav ul li a{
+		text-decoration:none;	
+		display:block;
+		padding: 35px 20px;
+		font-size: 150%;
+	}
+	
+	article{
+		border: 1px black solid;
+		margin: 10px 10px 10px 10px;	
+		height: 870px;
+		background-color: white;
+		box-shadow: 5px 5px 5px #888888;
+		padding: 15px 15px 15px 15px;
+	}
+	
+	aside{
+		border: 1px black solid;
+		margin: 10px 10px 10px 10px;	
+		height: 80px;		
+		background-color: white;
+		box-shadow: 5px 5px 5px #888888;
+        padding-left: 20px;
+		padding-top: 10px;
+	}
+	
+	footer{
+		border: 1px black solid;
+		border-radius: 20px;
+		margin: 10px 10px 10px 10px;
+		height:90px;
+		background-color: white;
+		box-shadow: 5px 5px 5px #888888;
+		text-align: center;
+	}
+	
+	.txtcol{
+		color: blue;
+	}
+
+    .desktop{
+		visibility:hidden;
+		display:none;
+	}
+	
+	@media screen and (max-width: 540px){
+		.mobile2{
+			display:none;
+			visibility:hidden;
+		}
+	} 	
+
+
+/*the screen needs to be with width 540px or plus*/
+@media screen and (min-width: 540px){
+	.mobile{
+		display:none;
+		visibility:hidden;
+	}
+	
+	.mobile2{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	article{
+		border: 1px black solid;
+		margin: 10px 10px 10px 10px;	
+		height: 920px;
+		background-color: white;
+		box-shadow: 5px 5px 5px #888888;
+		padding: 15px 15px 15px 15px;
+	}
+	
+	
+}

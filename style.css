@@ -1,0 +1,149 @@
+
+body{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E4E7F2),
+	color-stop(1, #7891D6)
+	);
+	background-image: -o-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+	background-image: -moz-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+	background-image: -webkit-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+	background-image: -ms-linear-gradient(bottom, #E4E7F2 0%, #7891D6 100%);
+	background-image: linear-gradient(to bottom, #E4E7F2 0%, #7891D6 100%);
+}
+#page{
+	width: 1240px;
+	margin: 0 auto;	
+}
+
+header{
+	height:150px;
+	border: 1px black solid;
+	border-radius: 20px;
+	margin: 15px 10px 10px 10px;
+	background-color: white;
+	box-shadow: 5px 5px 5px #888888;
+	text-align: center;
+	background-image: url('sky.jpg');
+}
+
+h1{	
+	font-size:350%;	
+	margin-bottom: -15px; 
+}
+
+.setVerdana{
+	font-family:verdana;
+}
+nav{
+	border: 1px black solid;
+	margin: 10px 10px 10px 10px;
+	width: 20%;	
+	float: left;
+	position:relative;	
+	clear: both;
+	height: 585px;
+	background-color: white;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+	line-height:115px;
+	
+}
+
+nav ul li{	
+	list-style-type:none;
+	width:100%;
+	border: 1px solid black;
+	text-align:center;
+	display:block;
+	
+}
+
+nav ul li:hover,a:hover{
+	background-color: #0033CC;
+	color:#FFF;
+}
+
+nav ul li a{
+	text-decoration:none;	
+}
+
+article{
+	border: 1px black solid;
+	margin: 10px 10px 10px 10px;
+	position:relative;
+	float: left;
+	width: 52%;
+	height: 550px;
+	background-color: white;
+	box-shadow: 5px 5px 5px #888888;
+	padding: 15px 15px 15px 15px;
+}
+
+#centre{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+aside{
+	border: 1px black solid;
+	margin: 10px 10px 10px 10px;	
+	float:right;
+	width: 20%;	
+	height: 320px;
+	clear: right;
+	background-color: white;
+	box-shadow: 5px 5px 5px #888888;	
+}
+
+aside img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+	border: 1px black solid;
+	border-radius: 20px;
+	margin: 10px 10px 10px 10px;
+	height:100px;
+	float: left;
+	width:99%;
+	background-color: white;
+	box-shadow: 5px 5px 5px #888888;
+	
+	text-align: center;
+}
+
+#wrap{
+	margin:0 auto;
+	padding-top: 0px;
+	width: 400px;
+	height:100px;
+}
+#wrap p img{
+	float:left;
+	margin-top: -10px !important;
+}
+
+span{
+	margin: 20px 0px 15px 25px;
+}
+
+
+.txtcol{
+	color: blue;
+}
+.mobile, .mobile2{
+	display:none;
+}
+
+
+
