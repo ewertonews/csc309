@@ -45,6 +45,7 @@ window.onload = function(){
 	    
 }
 
+
 function setScore(){
 	
 	scoreBoard.innerHTML =  "Score: " + score;
@@ -222,7 +223,7 @@ function verifCurrentBlock(c_posX, c_posY){
         		setSpeed(1.4);
         		speedChanged++;
         		setSpeedboard(c_speed++);
-        		//alert(moveY);
+        		p_width = p_width - 7;
         	}         	
     } else if (c_posY > 60 && c_posY < 91 + c_radius){
         	blockNumY = 2;
@@ -231,7 +232,7 @@ function verifCurrentBlock(c_posX, c_posY){
         		setSpeed(1.3);
         		speedChanged++;	
         		setSpeedboard(c_speed++);
-        		//alert(moveY);
+        		p_width = p_width - 7;
         	}        	
     } else if (c_posY > 90 && c_posY < 121 + c_radius){
         	blockNumY = 3;
@@ -240,7 +241,7 @@ function verifCurrentBlock(c_posX, c_posY){
         		setSpeed(1.2);
         		speedChanged++;	
         		setSpeedboard(c_speed++);
-        		//alert(moveY);
+        		p_width = p_width - 5;
         	}         	
     }else if (c_posY > 120 && c_posY < 151 + c_radius){
         	blockNumY = 4;
@@ -249,7 +250,7 @@ function verifCurrentBlock(c_posX, c_posY){
         		setSpeed(1.1);
         		speedChanged++;	
         		setSpeedboard(c_speed++);
-        		//alert(moveY);
+        		p_width = p_width - 5;
         	}     
         	   	
     }else if (c_posY > 150 && c_posY < 181 + c_radius){
